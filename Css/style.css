@@ -1,0 +1,24 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* #endregion common */
+
+
+/* #region utility */
+
+:root{
+    --boolando-primary: #ffffff;
+    --boolando-secondary: #ffffff;
+    --boolando-orange: #ff6900;
+    --boolando-red: #ff0000;
+    --boolando-green: #008000;
+
+}
+
+
+/* #endregion utility */
