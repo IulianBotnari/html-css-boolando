@@ -162,6 +162,7 @@ img:hover{
 .article:hover{
     .heart{
         display: block;
+        color: #ff0000;
     }
 }
 
