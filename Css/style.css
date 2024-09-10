@@ -28,9 +28,33 @@ a{
     color: var(--boolando-primary);
 }
 
+.img_article>img{
+    width: 100%;
+    padding: 1rem;
+}
+
+.margin_5{
+    margin-left: 5%;
+
+} 
+
+.red_bold{
+    color: var(--boolando-red);
+    font-weight: bold;
+    margin-right: .3rem;
+    font-size: .9rem;
+}
+
+.txt_dec{
+    text-decoration-line: line-through;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
 /* #endregion utility */
 
 /* #region header */
+
 
 header{
     display: flex;
@@ -49,10 +73,6 @@ nav{
 
 }
 
-.bool_logo{
-    display: inline-block;
-}
-
 .div_logo{
     display: flex;
     justify-content: center;
@@ -63,3 +83,71 @@ nav{
 .nav_menu{
     margin-right: .5rem;
 }
+
+/* #endregion header */
+
+
+/* #region main */
+
+main{
+    margin: auto;
+    width: 80%;
+
+}
+
+.row{
+    display: flex;
+}
+
+.article{
+    width: calc(100%/3);
+    position: relative;
+
+}
+
+.img_article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart{
+    position: absolute;
+    top: 4%;
+    right: 7%;
+    font-size: 1.5rem;
+}
+
+.green{
+    position: absolute;
+    background-color: var(--boolando-green);
+    padding-top: .2rem;
+    padding-bottom: 0.2rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    top: 75%;
+    left: 18%;
+
+}
+
+.discount{
+    position: absolute;
+    background-color: var(--boolando-red);
+    padding-top: .2rem;
+    padding-bottom: 0.2rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    top: 75%;
+    left:5%
+
+}
+
+.brand{
+    font-size: .8rem;
+    color:gray;
+}
+
+.description{
+    font-weight: bold;
+}
+
