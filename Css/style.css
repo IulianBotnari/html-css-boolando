@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: var(--boolando-primary);
+}
 
 /* #endregion common */
 
@@ -20,5 +24,42 @@
 
 }
 
+.white_text{
+    color: var(--boolando-primary);
+}
 
 /* #endregion utility */
+
+/* #region header */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--boolando-orange);
+    width: 100%;
+    height: 4rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+
+.bool_logo{
+    display: inline-block;
+}
+
+.div_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.nav_menu{
+    margin-right: .5rem;
+}
