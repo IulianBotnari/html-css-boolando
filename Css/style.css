@@ -111,13 +111,62 @@ main{
 
 }
 
+
 .img_article{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.img1 .img2 .img3 .img4 .img5 .img6{
+    position: sticky;
+    z-index: 0;
+}
+
+.img1b{ 
+    position: absolute;
+    z-index: -1;
+}
+
+.img2b{ 
+    position: absolute;
+    z-index: -1;
+}
+
+.img3b{ 
+    position: absolute;
+    z-index: -1;
+}
+
+.img4b{ 
+    position: absolute;
+    z-index: -1;
+}
+
+.img5b{ 
+    position: absolute;
+    z-index: -1;
+}
+
+.img6b{ 
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+img:hover{
+    z-index: -2;
+}
+
+.article:hover{
+    .heart{
+        display: block;
+    }
+}
+
 .heart{
+    display: none;
     position: absolute;
     top: 4%;
     right: 7%;
@@ -145,6 +194,7 @@ main{
     padding-right: .3rem;
     top: 75%;
     left:5%
+    
 
 }
 
@@ -157,9 +207,9 @@ main{
     font-weight: bold;
 }
 
-.article>.green{
+/* .article>.green{
     left: 5%!important;
-}
+} */
 
 /* #endregion main */
 
