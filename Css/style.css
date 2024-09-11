@@ -118,56 +118,42 @@ main{
     align-items: center;
 }
 
-.img1 .img2 .img3 .img4 .img5 .img6{
+/* .img1 .img2 .img3 .img4 .img5 .img6{
     position: sticky;
-    z-index: 0;
-}
+    z-index: 50;
+} */
 
-.img1b{ 
-    position: absolute;
-    z-index: -1;
-}
-
-.img2b{ 
-    position: absolute;
-    z-index: -1;
-}
-
-.img3b{ 
-    position: absolute;
-    z-index: -1;
-}
-
-.img4b{ 
-    position: absolute;
-    z-index: -1;
-}
-
-.img5b{ 
-    position: absolute;
-    z-index: -1;
-}
-
-.img6b{ 
-    position: absolute;
-    z-index: -1;
+.img1b, .img2b, .img3b, .img4b, .img5b, .img6b{ 
+   display: none;
 }
 
 
+.article:hover{
 
-img:hover{
-    z-index: -2;
+    .img1, .img2, .img3, .img4, .img5, .img6{
+        display: none;
+    }
+
+    .img1b, .img2b, .img3b, .img4b, .img5b, .img6b{
+
+        display: block;
+        
+    }
+    
+
+
+
+
+
 }
 
 .article:hover{
     .heart{
-        display: block;
         color: #ff0000;
     }
 }
 
 .heart{
-    display: none;
     position: absolute;
     top: 4%;
     right: 7%;
